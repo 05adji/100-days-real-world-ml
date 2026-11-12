@@ -1,0 +1,23 @@
+# Virtual Environment & Python Cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large Datasets & Model Artifacts
+*.csv
+*.parquet
+*.zip
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+data/raw/
+data/processed/
+
+# Environment Variables & OS Files
+.env
+.DS_Store
+Thumbs.db
