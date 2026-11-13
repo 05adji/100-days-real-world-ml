@@ -94,7 +94,7 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/[YOUR_GITHUB_USERNAME]/100-days-real-world-ml.git
+   git clone https://github.com/05adji/100-days-real-world-ml.git
    cd 100-days-real-world-ml
    ```
 
