@@ -43,8 +43,8 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 
 | Day | Date | Project Title | Business Use Case & Domain | Core Algorithms / Models | Key Metrics | Project Directory | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 01 | Nov 13, 2026 | Telco Customer Churn Prediction | Telecom Customer Retention | Logistic Regression, XGBoost, SHAP | ROC-AUC: 0.8419, PR-AUC: 0.6615 | `./day-01-telco-customer-churn` | ✅ Completed |
-| 02 | Nov 14, 2026 | Credit Risk & Loan Default Scoring | Consumer Lending & Banking Risk | LightGBM, Optuna, WoE/IV | PR-AUC, KS-Stat | `./day-02-credit-risk-scoring` | ⏳ Planned |
+| 01 | Nov 13, 2026 | Telco Customer Churn Prediction | Telecom Customer Retention | Logistic Regression, XGBoost, SHAP | ROC-AUC: 0.8419, PR-AUC: 0.6615 | [`./day-01-telco-customer-churn`](./day-01-telco-customer-churn) | ✅ Completed |
+| 02 | Nov 14, 2026 | Credit Risk & Loan Default Scoring | Consumer Lending & Banking Risk | Logistic Regression, LightGBM, SHAP | ROC-AUC: 0.9533, PR-AUC: 0.9131, KS: 0.7747 | [`./day-02-credit-risk-scoring`](./day-02-credit-risk-scoring) | ✅ Completed |
 | 03 | Nov 15, 2026 | Credit Card Fraud Detection | Financial Transaction Security | Isolation Forest, CatBoost, SMOTE | PR-AUC, F1-Score | `./day-03-fraud-detection` | ⏳ Planned |
 | 04 | Nov 16, 2026 | Real Estate Valuation Engine | Residential Property Appraisal | Ridge, Random Forest, XGBoost | RMSE, MAE, R² | `./day-04-house-price-valuation` | ⏳ Planned |
 | 05 | Nov 17, 2026 | E-Commerce Delivery Time Estimation | Logistics & Last-Mile Optimization | Gradient Boosting, Feature Hashing | MAE, MAPE | `./day-05-delivery-time-estimation` | ⏳ Planned |
