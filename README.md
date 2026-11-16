@@ -46,7 +46,7 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | 01 | Nov 13, 2026 | Telco Customer Churn Prediction | Telecom Customer Retention | Logistic Regression, XGBoost, SHAP | ROC-AUC: 0.8419, PR-AUC: 0.6615 | [`./day-01-telco-customer-churn`](./day-01-telco-customer-churn) | ✅ Completed |
 | 02 | Nov 14, 2026 | Credit Risk & Loan Default Scoring | Consumer Lending & Banking Risk | Logistic Regression, LightGBM, SHAP | ROC-AUC: 0.9533, PR-AUC: 0.9131, KS: 0.7747 | [`./day-02-credit-risk-scoring`](./day-02-credit-risk-scoring) | ✅ Completed |
 | 03 | Nov 15, 2026 | Credit Card Fraud Detection | Financial Transaction Security | Logistic Regression, XGBoost, SHAP | PR-AUC: 0.8175, ROC-AUC: 0.9750, F1: 0.85 | [`./day-03-fraud-detection`](./day-03-fraud-detection) | ✅ Completed |
-| 04 | Nov 16, 2026 | Real Estate Valuation Engine | Residential Property Appraisal | Ridge, Random Forest, XGBoost | RMSE, MAE, R² | `./day-04-house-price-valuation` | ⏳ Planned |
+| 04 | Nov 16, 2026 | Real Estate Valuation Engine | Residential Property Appraisal | Log-Target Ridge, XGBoost, SHAP | RMSE: $122.8k, MAE: $60.0k, MAPE: 11.26%, R²: 0.8841 | [`./day-04-house-price-valuation`](./day-04-house-price-valuation) | ✅ Completed |
 | 05 | Nov 17, 2026 | E-Commerce Delivery Time Estimation | Logistics & Last-Mile Optimization | Gradient Boosting, Feature Hashing | MAE, MAPE | `./day-05-delivery-time-estimation` | ⏳ Planned |
 | 06–20 | Nov 18 – Dec 02, 2026 | *Updated daily at 07:00 AM (UTC+7)* | Business Classification & Regression | Ensemble & Interpretable ML | Case-Specific | - | ⏳ Planned |
 
