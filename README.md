@@ -49,6 +49,7 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | 04 | Nov 16, 2026 | Real Estate Valuation Engine | Residential Property Appraisal | Log-Target Ridge, XGBoost, SHAP | RMSE: $122.8k, MAE: $60.0k, MAPE: 11.26%, R²: 0.8841 | [`./day-04-house-price-valuation`](./day-04-house-price-valuation) | ✅ Completed |
 | 05 | Nov 17, 2026 | E-Commerce Delivery Time Estimation | Logistics & Last-Mile Optimization | Ridge, LightGBM, SHAP | MAE: 3.21m, RMSE: 4.03m, R²: 0.8145, SLA: 80.0% | [`./day-05-delivery-time-estimation`](./day-05-delivery-time-estimation) | ✅ Completed |
 | 06 | Nov 18, 2026 | Hotel Booking Cancellation Prediction | Hospitality Revenue & Overbooking Management | Logistic Regression, LightGBM, SHAP | ROC-AUC: 0.8994, PR-AUC: 0.7777, F1: 0.71 | [`./day-06-hotel-cancellation-prediction`](./day-06-hotel-cancellation-prediction) | ✅ Completed |
+| 07 | Nov 19, 2026 | Clinical Diabetes Risk Screening | Healthcare & Preventive Diagnostics | Logistic Regression, XGBoost, SHAP | PR-AUC: 0.8839, ROC-AUC: 0.9777, Recall: 0.86, Brier: 0.031 | [`./day-07-clinical-diabetes-risk`](./day-07-clinical-diabetes-risk) | ✅ Completed |
 
 ### Phase 2: Unsupervised Learning & Recommender Systems (Days 21–40)
 
