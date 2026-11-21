@@ -51,6 +51,7 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | 06 | Nov 18, 2026 | Hotel Booking Cancellation Prediction | Hospitality Revenue & Overbooking Management | Logistic Regression, LightGBM, SHAP | ROC-AUC: 0.8994, PR-AUC: 0.7777, F1: 0.71 | [`./day-06-hotel-cancellation-prediction`](./day-06-hotel-cancellation-prediction) | ✅ Completed |
 | 07 | Nov 19, 2026 | Clinical Diabetes Risk Screening | Healthcare & Preventive Diagnostics | Logistic Regression, XGBoost, SHAP | PR-AUC: 0.8839, ROC-AUC: 0.9777, Recall: 0.86, Brier: 0.031 | [`./day-07-clinical-diabetes-risk`](./day-07-clinical-diabetes-risk) | ✅ Completed |
 | 08 | Nov 20, 2026 | Dynamic Flight Ticket Pricing Engine | Airline Yield Management & TravelTech | Log-Target Ridge, LightGBM, SHAP | MAE: ₹1,632, MAPE: 12.52%, R²: 0.9831 | [`./day-08-dynamic-flight-pricing`](./day-08-dynamic-flight-pricing) | ✅ Completed |
+| 09 | Nov 21, 2026 | Health Insurance Cross-Sell Propensity | InsurTech & Telemarketing ROI | Logistic Regression, LightGBM, SHAP | ROC-AUC: 0.8582, PR-AUC: 0.3704, Top-20% Capture: 58.02% | [`./day-09-insurance-cross-sell`](./day-09-insurance-cross-sell) | ✅ Completed |
 
 ### Phase 2: Unsupervised Learning & Recommender Systems (Days 21–40)
 
