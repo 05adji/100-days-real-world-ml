@@ -52,6 +52,7 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | 07 | Nov 19, 2026 | Clinical Diabetes Risk Screening | Healthcare & Preventive Diagnostics | Logistic Regression, XGBoost, SHAP | PR-AUC: 0.8839, ROC-AUC: 0.9777, Recall: 0.86, Brier: 0.031 | [`./day-07-clinical-diabetes-risk`](./day-07-clinical-diabetes-risk) | ✅ Completed |
 | 08 | Nov 20, 2026 | Dynamic Flight Ticket Pricing Engine | Airline Yield Management & TravelTech | Log-Target Ridge, LightGBM, SHAP | MAE: ₹1,632, MAPE: 12.52%, R²: 0.9831 | [`./day-08-dynamic-flight-pricing`](./day-08-dynamic-flight-pricing) | ✅ Completed |
 | 09 | Nov 21, 2026 | Health Insurance Cross-Sell Propensity | InsurTech & Telemarketing ROI | Logistic Regression, LightGBM, SHAP | ROC-AUC: 0.8582, PR-AUC: 0.3704, Top-20% Capture: 58.02% | [`./day-09-insurance-cross-sell`](./day-09-insurance-cross-sell) | ✅ Completed |
+| 10 | Nov 22, 2026 | Multi-Store Retail Demand Prediction | Retail Supply Chain & Inventory | Ridge, LightGBM, Lag Features, SHAP | WAPE: 3.91%, MAE: $40.6k, R²: 0.9881 | [`./day-10-retail-demand-prediction`](./day-10-retail-demand-prediction) | ✅ Completed |
 
 ### Phase 2: Unsupervised Learning & Recommender Systems (Days 21–40)
 
