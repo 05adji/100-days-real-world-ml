@@ -53,6 +53,7 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | 08 | Nov 20, 2026 | Dynamic Flight Ticket Pricing Engine | Airline Yield Management & TravelTech | Log-Target Ridge, LightGBM, SHAP | MAE: ₹1,632, MAPE: 12.52%, R²: 0.9831 | [`./day-08-dynamic-flight-pricing`](./day-08-dynamic-flight-pricing) | ✅ Completed |
 | 09 | Nov 21, 2026 | Health Insurance Cross-Sell Propensity | InsurTech & Telemarketing ROI | Logistic Regression, LightGBM, SHAP | ROC-AUC: 0.8582, PR-AUC: 0.3704, Top-20% Capture: 58.02% | [`./day-09-insurance-cross-sell`](./day-09-insurance-cross-sell) | ✅ Completed |
 | 10 | Nov 22, 2026 | Multi-Store Retail Demand Prediction | Retail Supply Chain & Inventory | Ridge, LightGBM, Lag Features, SHAP | WAPE: 3.91%, MAE: $40.6k, R²: 0.9881 | [`./day-10-retail-demand-prediction`](./day-10-retail-demand-prediction) | ✅ Completed |
+| 11–20 | Nov 23 – Dec 02, 2026 | *Upcoming — 1 new real-world project added daily* | Business Classification & Regression | Ensemble & Interpretable ML | Case-Specific | - | ⏳ Planned |
 
 ### Phase 2: Unsupervised Learning & Recommender Systems (Days 21–40)
 
@@ -61,7 +62,7 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | 21 | Dec 03, 2026 | E-Commerce Customer Segmentation | Personalized Lifecycle Marketing (RFM) | K-Means, Hierarchical Clustering, UMAP | Silhouette Score | `./day-21-customer-segmentation` | ⏳ Planned |
 | 22 | Dec 04, 2026 | Industrial Sensor Anomaly Detection | Manufacturing Predictive Maintenance | Isolation Forest, Autoencoder | Precision@K, F1 | `./day-22-sensor-anomaly-detection` | ⏳ Planned |
 | 23 | Dec 05, 2026 | Retail Market Basket Analysis | Cross-Selling & Product Bundling | Apriori, FP-Growth | Lift, Confidence | `./day-23-market-basket-analysis` | ⏳ Planned |
-| 24–40 | Dec 06–22, 2026 | *Updated daily at 07:00 AM (UTC+7)* | Clustering & Personalization Engines | Matrix Factorization, Two-Tower, Graph | MAP@K, NDCG@K | - | ⏳ Planned |
+| 24–40 | Dec 06–22, 2026 | *Upcoming — 1 new real-world project added daily* | Clustering & Personalization Engines | Matrix Factorization, Two-Tower, Graph | MAP@K, NDCG@K | - | ⏳ Planned |
 
 ### Phase 3: Time Series Forecasting & Sequential Data (Days 41–60)
 
@@ -69,7 +70,7 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 41 | Dec 23, 2026 | Multi-Store Retail Demand Forecasting | Inventory & Supply Planning | SARIMAX, Prophet, LightGBM Lag | WAPE, RMSE | `./day-41-retail-demand-forecasting` | ⏳ Planned |
 | 42 | Dec 24, 2026 | Hourly Power Grid Load Forecasting | Energy Distribution Management | XGBoost Time Series, LSTM | MAPE, MAE | `./day-42-energy-load-forecasting` | ⏳ Planned |
-| 43–60 | Dec 25, 2026 – Jan 11, 2027 | *Updated daily at 07:00 AM (UTC+7)* | Sequential Modeling & Forecasting | Prophet, N-BEATS, Temporal Fusion | MASE, sMAPE | - | ⏳ Planned |
+| 43–60 | Dec 25, 2026 – Jan 11, 2027 | *Upcoming — 1 new real-world project added daily* | Sequential Modeling & Forecasting | Prophet, N-BEATS, Temporal Fusion | MASE, sMAPE | - | ⏳ Planned |
 
 ### Phase 4: Natural Language Processing (NLP) (Days 61–75)
 
@@ -77,7 +78,7 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 61 | Jan 12, 2027 | Marketplace Product Review Sentiment | Voice-of-Customer Analytics | TF-IDF, Fine-tuned RoBERTa/IndoBERT | Macro F1-Score | `./day-61-review-sentiment-analysis` | ⏳ Planned |
 | 62 | Jan 13, 2027 | Automated Customer Ticket Triage | Customer Support Routing Automation | Transformer Text Classification | Accuracy, F1 | `./day-62-support-ticket-triage` | ⏳ Planned |
-| 63–75 | Jan 14–26, 2027 | *Updated daily at 07:00 AM (UTC+7)* | Information Extraction & RAG Systems | BERT NER, Dense Embeddings, Vector DB | Recall@K, ROUGE | - | ⏳ Planned |
+| 63–75 | Jan 14–26, 2027 | *Upcoming — 1 new real-world project added daily* | Information Extraction & RAG Systems | BERT NER, Dense Embeddings, Vector DB | Recall@K, ROUGE | - | ⏳ Planned |
 
 ### Phase 5: Computer Vision (Days 76–90)
 
@@ -85,14 +86,14 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 76 | Jan 27, 2027 | Manufacturing Surface Defect Detection | Automated Visual Quality Control | ResNet50, EfficientNet Transfer Learning | mAP, F1-Score | `./day-76-surface-defect-detection` | ⏳ Planned |
 | 77 | Jan 28, 2027 | Construction Site PPE Safety Detection | Workplace Safety Compliance | YOLOv8 Object Detection | mAP@0.5 | `./day-77-ppe-safety-detection` | ⏳ Planned |
-| 78–90 | Jan 29 – Feb 10, 2027 | *Updated daily at 07:00 AM (UTC+7)* | Classification, Object Detection & OCR | CNN, Vision Transformer, PaddleOCR | IoU, CER/WER | - | ⏳ Planned |
+| 78–90 | Jan 29 – Feb 10, 2027 | *Upcoming — 1 new real-world project added daily* | Classification, Object Detection & OCR | CNN, Vision Transformer, PaddleOCR | IoU, CER/WER | - | ⏳ Planned |
 
 ### Phase 6: End-to-End MLOps & Capstone Deployment (Days 91–100)
 
 | Day | Date | Project Title | Business Use Case & Domain | Core Algorithms / Models | Key Metrics | Project Directory | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 91 | Feb 11, 2027 | Production Model Serving API | Real-Time Inference Microservice | FastAPI, Pydantic, Uvicorn | Latency (ms), RPS | `./day-91-fastapi-model-serving` | ⏳ Planned |
-| 92–100 | Feb 12–20, 2027 | *Updated daily at 07:00 AM (UTC+7)* | Docker, CI/CD, Drift Monitoring & Capstone | Docker, EvidentlyAI, MLflow, Streamlit | End-to-End SLA | - | ⏳ Planned |
+| 92–100 | Feb 12–20, 2027 | *Upcoming — 1 new real-world project added daily* | Docker, CI/CD, Drift Monitoring & Capstone | Docker, EvidentlyAI, MLflow, Streamlit | End-to-End SLA | - | ⏳ Planned |
 
 ## Getting Started Locally
 
