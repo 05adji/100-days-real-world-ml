@@ -14,8 +14,8 @@ __pycache__/
 *.h5
 *.pt
 *.onnx
-data/raw/
-data/processed/
+**/data/raw/
+**/data/processed/
 
 # Environment Variables & OS Files
 .env
