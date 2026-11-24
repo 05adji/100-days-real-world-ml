@@ -54,7 +54,8 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | 09 | Nov 21, 2026 | Health Insurance Cross-Sell Propensity | InsurTech & Telemarketing ROI | Logistic Regression, LightGBM, SHAP | ROC-AUC: 0.8582, PR-AUC: 0.3704, Top-20% Capture: 58.02% | [`./day-09-insurance-cross-sell`](./day-09-insurance-cross-sell) | ✅ Completed |
 | 10 | Nov 22, 2026 | Multi-Store Retail Demand Prediction | Retail Supply Chain & Inventory | Ridge, LightGBM, Lag Features, SHAP | WAPE: 3.91%, MAE: $40.6k, R²: 0.9881 | [`./day-10-retail-demand-prediction`](./day-10-retail-demand-prediction) | ✅ Completed |
 | 11 | Nov 23, 2026 | Bank Term Deposit Marketing Propensity | Banking Telemarketing & Leakage Prevention | Logistic Regression, LightGBM, SHAP | PR-AUC: 0.4768, ROC-AUC: 0.8092, Top-20% Capture: 66.70% | [`./day-11-bank-marketing-propensity`](./day-11-bank-marketing-propensity) | ✅ Completed |
-| 12–20 | Nov 24 – Dec 02, 2026 | *Upcoming — 1 new real-world project added daily* | Business Classification & Regression | Ensemble & Interpretable ML | Case-Specific | - | ⏳ Planned |
+| 12 | Nov 24, 2026 | Medical Insurance Cost Prediction | InsurTech & Actuarial Pricing | Ridge + Interactions, XGBoost, SHAP | CV RMSE: $4,636, Test RMSE: $3,347, R²: 0.9223 | [`./day-12-medical-insurance-cost`](./day-12-medical-insurance-cost) | ✅ Completed |
+| 13–20 | Nov 25 – Dec 02, 2026 | *Upcoming — 1 new real-world project added daily* | Business Classification & Regression | Ensemble & Interpretable ML | Case-Specific | - | ⏳ Planned |
 
 ### Phase 2: Unsupervised Learning & Recommender Systems (Days 21–40)
 
