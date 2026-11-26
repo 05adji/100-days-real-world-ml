@@ -33,8 +33,6 @@ Dialing every client wastes agent capacity and causes customer annoyance through
 | **Logistic Regression (Pre-Dial Baseline)** | 0.4441 | 0.7996 | 64.33% | 0.6555 | 0.45 | **0.59** | 0.51 | 0.87 |
 | **LightGBM (Pre-Dial Propensity Engine)** | **0.4768** | **0.8092** | **66.70%** | 0.4594 | **0.50** | 0.56 | **0.52** | **0.89** |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & Telemarketing Policy Recommendations
 1. **Cap Repeated Outreach at 3 Attempts**: Since conversion decays steadily beyond the 3rd contact (`is_overcontacted`), enforcing a strict 3-call cap reallocates agent hours to fresh, higher-propensity segments (`student`, `retired`, and `poutcome == success`).
 2. **Macro-Aware Campaign Timing**: SHAP highlights `euribor3m`, `nr.employed`, `month`, and `poutcome_success` as dominant pre-dial drivers—marketing teams should concentrate outbound campaign budgets during low-Euribor windows and peak seasonal months (`Mar, Sep, Oct, Dec`).

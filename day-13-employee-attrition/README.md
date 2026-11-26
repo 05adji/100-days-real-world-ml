@@ -35,8 +35,6 @@ HR leadership needs an early-warning scoring system to identify flight-risk tale
 | **Logistic Regression (L2 Regularized)** | **0.8342** | **0.6355** | **0.8052** | **0.5812** | **0.55** | 0.60 | **0.57** | **0.86** |
 | **XGBoost (Depth-Regularized)** | 0.8227 | 0.6170 | 0.7623 | 0.4945 | 0.42 | **0.62** | 0.50 | 0.80 |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & HR Retention Recommendations
 1. **Overtime & Commute Intervention**: SHAP highlights `OverTime`, `overtime_commute_stress`, `MonthlyIncome`, and `StockOptionLevel` as leading attrition triggers; HR should prioritize hybrid/remote flexibility for high-overtime, long-commute employees.
 2. **Early-Career Retention Grants**: Extending modest equity/retention bonuses (`StockOptionLevel >= 1`) or structured promotion paths to high-performing `Age <= 30` staff directly mitigates the highest-turnover cohort.

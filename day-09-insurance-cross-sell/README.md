@@ -34,8 +34,6 @@ Only `12.26%` of existing health policyholders are interested in purchasing vehi
 | **Logistic Regression (Balanced Baseline)** | 0.8497 | 0.3424 | 55.74% | 0.6633 | 0.32 | 0.76 | 0.45 | 0.77 |
 | **LightGBM (Cross-Sell Propensity Engine)** | **0.8582** | **0.3704** | **58.02%** | 0.4158 | 0.32 | **0.79** | **0.46** | 0.77 |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & Telemarketing Recommendations
 1. **3x Telemarketing Efficiency via Top-20% Targeting**: By ranking leads with LightGBM and calling only the **top 20% highest-propensity policyholders**, the sales team captures **>60% of all potential buyers** while cutting outbound call volume by **80%**.
 2. **Pre-Filter Exclusion Rule**: Policyholders with `Previously_Insured == 1` exhibit negligible cross-sell conversion; excluding them automatically from cold-call queues immediately eliminates wasted agent hours.

@@ -33,8 +33,6 @@ Raw housing prices exhibit severe right-skewness (`skewness > 4.0`) and strong s
 | **Log-Target Ridge Regression (Baseline)** | $128,241.20 | $71,987.01 | 13.45% | 0.8736 |
 | **Log-Target XGBoost Regressor (AVM Engine)** | **$122,781.43** | **$60,040.67** | **11.26%** | **0.8841** |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & Valuation Insights
 1. **Spatial Coordinates Outperform Raw Zipcodes**: SHAP analysis demonstrates that `lat`, `dist_to_seattle_center_km`, `sqft_living`, and `grade` account for the vast majority of valuation variance—confirming that continuous geospatial coordinates capture micro-neighborhood transitions that discrete zipcodes miss.
 2. **Automated Underwriting Triage**: With a **~11–12% MAPE**, properties whose asking price deviates by less than 10% from the XGBoost AVM estimate can be fast-tracked for automated appraisal waivers, reserving costly in-person physical appraisals for high-variance luxury estates.

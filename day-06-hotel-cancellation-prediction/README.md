@@ -34,8 +34,6 @@ Online Travel Agencies (OTAs) with free cancellation policies have caused hotel 
 | **Logistic Regression (Balanced Baseline)** | 0.8382 | 0.6719 | 0.5392 | 0.55 | 0.74 | 0.63 | 0.76 |
 | **LightGBM (Cancellation Risk Engine)** | **0.8994** | **0.7777** | 0.5495 | **0.65** | **0.79** | **0.71** | **0.82** |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & Revenue Management Recommendations
 1. **Tiered Pre-Arrival Reconfirmation (`lead_time > 60 days` + `Online TA`)**: SHAP analysis identifies long `lead_time`, `Online TA` market segment, low `engagement_score` (`0` special requests), and high `adr` as the top cancellation drivers. Reservations scoring above the threshold should receive an automated pre-arrival room-preference survey or partial-deposit prompt 14 days prior to check-in (increasing guest engagement and lowering cancellation risk).
 2. **Expected Net Occupancy Forecasting**: Instead of counting raw booked rooms, revenue management systems should sum $(1 - P(\text{Cancel}_i))$ across all active reservations to determine the exact room inventory available for safe overbooking.

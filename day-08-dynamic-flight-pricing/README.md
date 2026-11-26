@@ -33,8 +33,6 @@ Accurate fare estimation powers both airline yield-management systems and consum
 | **Log-Target Ridge Regression (Baseline)** | ₹4,548.37 | ₹8,306.69 | 24.93% | 0.8663 |
 | **LightGBM Regressor (Dynamic Pricing Engine)** | **₹1,632.11** | **₹2,953.59** | **12.52%** | **0.9831** |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & Pricing Insights
 1. **Booking Window Optimization**: SHAP confirms `class_Business`, `duration`, `days_left`, and `airline_Vistara` as the primary price drivers. Consumer OTA "Price Freeze" features should trigger `10–14 days` before departure—just ahead of the `days_left < 10` surge zone.
 2. **Carrier Positioning**: Full-service carriers (`Vistara`, `Air India`) command significant route-dependent premiums over low-cost carriers (`Indigo`, `AirAsia`, `SpiceJet`) on direct business corridors such as `Delhi ↔ Mumbai`.

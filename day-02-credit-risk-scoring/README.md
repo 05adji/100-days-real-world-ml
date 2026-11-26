@@ -34,8 +34,6 @@ In consumer lending, **False Negatives** (approving a borrower who defaults) res
 | **Logistic Regression (Baseline)** | 0.8785 | 0.7130 | 0.6064 | 0.6349 | 0.62 | 0.70 | 0.66 | 0.84 |
 | **LightGBM (Credit Scoring GBDT)** | **0.9533** | **0.9131** | **0.7747** | 0.6596 | **0.95** | **0.77** | **0.85** | **0.94** |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & Underwriting Recommendations
 1. **Debt-to-Income Cap (`loan_percent_income`)**: SHAP analysis confirms `loan_percent_income` and `loan_grade` as the dominant drivers of default. Applications where the loan exceeds **30% of annual income** for non-homeowners (`RENT`) exhibit a sharp spike in default risk and should trigger manual underwriting review.
 2. **Tiered Pricing Verification**: Borrowers in grades `D–G` with prior default records (`cb_person_default_on_file == 1`) require stricter collateral or lower credit limits.

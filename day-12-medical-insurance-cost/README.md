@@ -32,8 +32,6 @@ Underpricing high-risk health policyholders erodes insurer solvency, whereas ove
 | **Ridge Regression (With Interactions)** | **$4,636.11** | **$3,346.81** | **$1,990.68** | **28.20%** | **0.9223** |
 | **XGBoost (Depth-Regularized)** | $4,744.45 | $3,361.15 | $2,087.21 | 30.71% | 0.9216 |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business & Actuarial Insights
 1. **Interaction Engineering Bridges the Linear Gap**: Adding `smoker_x_obese` and `smoker_x_bmi` allows even a transparent `Ridge` model to rival gradient boosted trees—giving actuaries a fully auditable linear pricing formula when regulatory explainability is required.
 2. **Preventive Wellness Incentives**: SHAP highlights `smoker_x_obese`, `is_smoker`, `age`, and `bmi` as the dominant cost drivers; subsidizing smoking-cessation and weight-management programs for the `BMI >= 30` smoker cohort directly targets the largest claim variance.

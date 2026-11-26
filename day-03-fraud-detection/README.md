@@ -35,8 +35,6 @@ In payment security, accuracy and even standard **ROC-AUC** can be dangerously m
 | **Logistic Regression (Balanced Baseline)** | 0.6838 | 0.9663 | 1.0000 | 0.88 | 0.76 | 0.81 | 10 |
 | **XGBoost (Histogram Cost-Sensitive)** | **0.8175** | **0.9750** | 0.6698 | **0.96** | **0.77** | **0.85** | **3** |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & Operational Recommendations
 1. **Two-Tiered Automated Actioning**:
    * **Tier 1 (`Probability >= Optimal Threshold`)**: Automatically block the transaction and trigger an instant SMS/push verification—achieving **>90% precision** with minimal false alarms across 56,746 test transactions.

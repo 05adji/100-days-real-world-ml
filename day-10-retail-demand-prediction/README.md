@@ -32,8 +32,6 @@ In multi-store retail planning, random train-test splits leak future holiday spi
 | **Ridge Regression (Temporal Lag Baseline)** | 4.86% | $50,477.91 | $69,653.39 | 0.9829 |
 | **LightGBM Regressor (Retail Demand Engine)** | **3.91%** | **$40,623.04** | **$58,074.60** | **0.9881** |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & Supply Chain Recommendations
 1. **Inventory Replenishment Accuracy**: Achieving **<5% WAPE** on unseen future weeks enables automated store-level safety-stock replenishment based on trailing 4-week rolling momentum (`sales_rolling_4w_mean`) and `week_of_year`.
 2. **Pre-Holiday Buffer Allocation**: Because year-end holiday weeks drive sharp non-linear surges, regional distribution centers should pre-stage buffer inventory 2 weeks ahead of Week 47 and Weeks 51–52.

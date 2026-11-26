@@ -33,8 +33,6 @@ In medical screening, **False Negatives** (failing to flag a diabetic patient) c
 | **Logistic Regression (Balanced Baseline)** | 0.8207 | 0.9636 | 0.0782 | 0.6437 | 0.53 | 0.82 | 0.64 | 0.92 |
 | **XGBoost (Clinical Risk Engine)** | **0.8839** | **0.9777** | **0.0310** | 0.3582 | **0.59** | **0.86** | **0.70** | **0.94** |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business & Clinical Impact
 1. **Two-Stage Screening Triage**: With high **PR-AUC** and low **Brier Score**, patients scoring above the $F_2$-optimal threshold can be automatically scheduled for confirmatory lab work, while borderline scores (`0.25–0.48`) receive preventive dietary and lifestyle coaching.
 2. **Transparent Clinician Support**: SHAP explanations highlight `HbA1c_level`, `blood_glucose_level`, `age`, `bmi`, and `comorbidity_count` for each individual patient, enabling physicians to audit the exact risk drivers behind every alert.

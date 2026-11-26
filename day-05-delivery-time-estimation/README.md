@@ -33,8 +33,6 @@ Real-world logistics telemetry suffers from GPS dropouts, string-encoded nulls, 
 | **Ridge Regression (Linear Baseline)** | 4.85 mins | 6.07 mins | 21.50% | 0.5792 | 58.45% |
 | **LightGBM Regressor (ETA Engine)** | **3.21 mins** | **4.03 mins** | **13.96%** | **0.8145** | **80.00%** |
 
-*(Note: Update the metrics above with the exact values printed in Cell 6 of your notebook.)*
-
 ## Business Impact & Operational Recommendations
 1. **Dynamic Batching Buffer (`multiple_deliveries`)**: SHAP analysis shows that stacking multiple deliveries on a single courier trip is one of the strongest positive drivers of delivery duration. Dispatch algorithms should restrict 3-order batching during `Jam` traffic states under `Stormy`/`Fog` weather.
 2. **Vehicle Condition & Courier Age Interaction**: Poor vehicle condition (`Vehicle_condition == 0`) significantly amplifies travel time across distances `> 10 km`; long-distance orders should be prioritized for couriers with `Vehicle_condition >= 2`.
