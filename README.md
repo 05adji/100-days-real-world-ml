@@ -57,7 +57,8 @@ Welcome to the **100 Days of Real-World Machine Learning Projects** portfolio re
 | 12 | Nov 24, 2026 | Medical Insurance Cost Prediction | InsurTech & Actuarial Pricing | Ridge + Interactions, XGBoost, SHAP | CV RMSE: $4,636, Test RMSE: $3,347, R²: 0.9223 | [`./day-12-medical-insurance-cost`](./day-12-medical-insurance-cost) | ✅ Completed |
 | 14 | Nov 26, 2026 | Online Shopper Purchase Intention | E-Commerce Clickstream Conversion | Logistic Regression, LightGBM, SHAP | PR-AUC: 0.7407, ROC-AUC: 0.9308, F1: 0.70 | [`./day-14-online-shopper-intention`](./day-14-online-shopper-intention) | ✅ Completed |
 | 15 | Nov 27, 2026 | CRM Inbound Lead Scoring Engine | EdTech & Sales Funnel Prioritization | Logistic Regression, LightGBM, SHAP | ROC-AUC: 0.8997, PR-AUC: 0.8550, Top-30% Conv: 83.21% | [`./day-15-lead-scoring`](./day-15-lead-scoring) | ✅ Completed |
-| 16–20 | Nov 28 – Dec 02, 2026 | *Upcoming — 1 new real-world project added daily* | Business Classification & Regression | Ensemble & Interpretable ML | Case-Specific | - | ⏳ Planned |
+| 16 | Nov 28, 2026 | Used Car Dynamic Valuation Engine | Automotive ReCommerce & Pricing | Log-Target Ridge, LightGBM, SHAP | MAE: ₹75.4k, MAPE: 16.70%, R²: 0.9257 | [`./day-16-used-car-valuation`](./day-16-used-car-valuation) | ✅ Completed |
+| 17–20 | Nov 29 – Dec 02, 2026 | *Upcoming — 1 new real-world project added daily* | Business Classification & Regression | Ensemble & Interpretable ML | Case-Specific | - | ⏳ Planned |
 
 ### Phase 2: Unsupervised Learning & Recommender Systems (Days 21–40)
 
